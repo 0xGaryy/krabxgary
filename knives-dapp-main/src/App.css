@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  overflow-x: hidden;
+  height: 100vh !important;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.stake-bg {
+  background: url("./assets/hq/filter.png"), url("./assets/stake/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dashboard-bg {
+  background: url("./assets/filter.png"), url("./assets/dashboard/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inventory-bg {
+  background: url("./assets/hq/filter.png"), url("./assets/inventory/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hq-bg {
+  background: url("./assets/hq/filter.png"), url("./assets/hq/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.barracks-bg {
+  background: url("./assets/hq/filter.png"), url("./assets/barracks/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.upgrade-bg {
+  background: url("./assets/hq/filter.png"), url("./assets/upgrade/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

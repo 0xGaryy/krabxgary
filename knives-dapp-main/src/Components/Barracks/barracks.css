@@ -1,0 +1,277 @@
+.barracks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh !important;
+}
+
+.barracks-center {
+  width: 100%;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 30px;
+}
+
+.barracks-wallet {
+  padding-top: 10px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.barracks-banner {
+  border-radius: 15px;
+  height: 246px;
+  width: 100%;
+  background: linear-gradient(to right, #0a080667, #0a0806fa),
+    url("../../assets/barracks/banner.jpeg");
+  background-position: 40% 80%;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+  padding-right: 100px;
+}
+
+.barracks-banner h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 40px;
+}
+
+.barracks-banner a {
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.barracks-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.barracks-infos,
+.barracks-stake {
+  width: 100% !important;
+}
+
+.barracks-liquidity {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  background: rgba(65, 64, 64, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.barracks-infos h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px !important;
+  margin-top: 0 !important;
+}
+
+.barracks-infos span {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+}
+
+.barracks-pool {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.barracks-pool_bloc {
+  width: 100%;
+  height: 80px;
+  background: rgba(65, 64, 64, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.barracks-stake {
+  width: 100%;
+  height: 380px;
+  background: rgba(65, 64, 64, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.barracks-stake_flex,
+.barracks-stake_flex_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.barracks-stake_flex div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.barracks-stake_flex div:first-child button {
+  border: none;
+  background: transparent;
+  color: rgba(239, 239, 239, 0.4);
+  font-size: 24px;
+  padding: 0px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.btn-active {
+  color: #fff !important ;
+}
+
+.barracks-stake_flex div:first-child span {
+  border: none;
+  background: transparent;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.barracks-stake_flex_two span {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+}
+
+.barracks-token {
+  display: flex;
+  background: rgba(121, 120, 120, 0.3);
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  height: 140px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.barracks-input {
+  display: flex;
+  border-right: 2px solid #fff;
+  width: 80%;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.barracks-input input {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+.barracks-input input[type="number"]::-webkit-inner-spin-button,
+.barracks-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.barracks-input button {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  background: rgba(121, 120, 120, 0.3);
+  font-family: "Space Grotesk", sans-serif;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.barracks-input button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.barracks-pair {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  padding-left: 10px;
+}
+
+.barracks-button_stake {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.barracks-button_stake button {
+  background: rgba(121, 120, 120, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 0px;
+}
+
+.barracks-button_stake button:hover {
+  cursor: pointer;
+}
+
+.barracks-button_withdraw {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.barracks-button_withdraw button {
+  background: rgba(121, 120, 120, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px 0px;
+}
+
+.btn-settings {
+  background: transparent;
+  border: none;
+}
+
+.btn-settings:hover {
+  cursor: pointer;
+}

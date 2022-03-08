@@ -1,0 +1,98 @@
+.upgrade {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.upgrade-wallet {
+  padding-right: 60px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.upgrade-bloc h3 {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.line-img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+}
+
+.multiple {
+  background-color: #5b3833;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.line-img span {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 13px;
+}
+
+.upgrade-points {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 250px;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.upgrade-points span {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+}
+
+.upgrade-points svg {
+  color: #fff;
+}
+
+.upgrade-title {
+  height: 100% !important;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.upgrade-title span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.upgrade-title svg {
+  color: rgba(255, 255, 255, 0.5);
+}
